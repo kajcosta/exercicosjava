@@ -14,7 +14,7 @@ public class boletim {
             int nota =scanner.nextInt();
                 if( nota >= 0 && nota <=10){
                     notas[i] = nota; 
-                    notaValida = true;}
+                    notaValida = true;} 
                   else { 
                     System.out.println("Por favor retorne um número inteiro entre 0 a 10");
                  }
